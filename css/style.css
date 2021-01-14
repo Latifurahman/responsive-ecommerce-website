@@ -2,3 +2,61 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    background: url("../images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 70px;
+    background-color: #FFF9F4;
+}
+.navbar .nav-item .nav-link{
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 15px;
+    border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar .nav-item .nav-link:hover{
+    background-color: #3D4FF3;;
+    color: #fff;
+    transition: all linear .3s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.main-part-right{
+    margin-left: 30%;
+}
+.main-part-right h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #363958;
+}
+.orange{
+    color: #FA804C;
+}
+.main-part-right p{
+    color: #3E3E3E;
+}
+ .cart-button{
+    background-color: #3D4FF3;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
