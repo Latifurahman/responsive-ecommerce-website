@@ -263,6 +263,10 @@ header{
     .main-part-left{
         margin-bottom: 40px;
     }
+    .main-part-right{
+        text-align: center;
+        margin: auto;
+    }
     .main-part-right h1{
         font-size: 60px;
     }
