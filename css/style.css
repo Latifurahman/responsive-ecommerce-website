@@ -193,11 +193,11 @@ header{
 
 @media (max-width:768px){
     .main-part-left{
-        width: 100%;
         margin-bottom: 50px;
     }
     .main-part-right{
-        width: 100%;
+        text-align: center;
+        margin: auto;
     }
     header{
         height: 900px;
@@ -208,6 +208,24 @@ header{
     .cart-button{
         font-size: 15px;
         padding: 8px 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+}
+@media (max-width:576px){
+    .main-part-right h1{
+        font-size: 30px;
+    }
+    .main-part-right{
+        text-align: center;
+        margin: auto;
+    }
+    .cart-button{
+        font-size: 12px;
+        padding: 2px 2px;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
